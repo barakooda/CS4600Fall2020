@@ -40,8 +40,6 @@ function recomputeImage()
 		for ( var i=layers.children.length-2; i>=0; --i ) {
 			var c = layers.children[i];
 			if ( c.image ) {
-				console.log("niva the queen")
-				console.log(c.image)
 				composite( image, c.image, c.imageOpac, c.imagePos );
 			}
 		}
